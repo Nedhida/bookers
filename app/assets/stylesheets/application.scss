@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap";
 
 * {
   margin: 0;
@@ -84,4 +85,8 @@ h2 {
 
 input[type="submit" i] {
   padding: 1px 6px;
+}
+
+.notice {
+  color: #008000;
 }
