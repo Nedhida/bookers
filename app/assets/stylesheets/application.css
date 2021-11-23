@@ -30,7 +30,7 @@ body {
 }
 
 th {
-  padding-bottom: 5px;
+  padding: 1px 1px 5px 1px;
 }
 
 p, td {
@@ -42,10 +42,6 @@ p, td {
 
 tr {
   position: relative;
-}
-
-th {
-  padding-bottom: 5px;
 }
 
 td {
@@ -65,11 +61,15 @@ a:hover {
   background-color: #000
 }
 
+h1 {
+  margin: 17px 0;
+}
+
 h2 {
   margin: 16px 0;
 }
 
-.new-book {
+.new-book,.edit-book {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
