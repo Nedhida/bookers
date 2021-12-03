@@ -15,11 +15,6 @@
  */
  @import "bootstrap";
 
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fff;
   color: #333;
@@ -33,7 +28,7 @@ th {
   padding: 1px 1px 5px 1px;
 }
 
-p, td {
+p, td, ul {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -69,13 +64,8 @@ h2 {
   margin: 16.185px 0;
 }
 
-.new-book,.edit-book {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  margin: 0;
+label,.edit-book {
+  display: block
 }
 
 .field {
@@ -88,4 +78,35 @@ input[type="submit" i] {
 
 .notice {
   color: #008000;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+   text-align: left;
+   font-weight: bold;
+   padding: 5px 5px 5px 15px;
+   font-size: 12px;
+   margin: -7px;
+   margin-bottom: 0;
+   background-color: #c00;
+   color: #fff;
+ }
+
+#error_explanation ul li {
+   font-size: 12px;
+   list-style: square;
+ }
+
+.field_with_errors {
+   padding: 2px;
+   background-color: red;
+   display: table;
 }
